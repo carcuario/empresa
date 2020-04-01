@@ -1,0 +1,89 @@
+body{
+    
+        background: #00c4cc;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #00c4cc,  #253556 );  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #00c4cc,  #253556 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        text-align: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+        
+      
+}
+  .contenedor-articulo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+    justify-content: space-around;
+  }
+  .articulo {
+    width: 30%;
+    background: #fff;
+    margin-bottom: 1.875rem;
+    border-radius: 0.625rem;
+    padding: 1.8125rem 1.875rem 1.75rem 1.875rem;
+    transition: 0.5s;
+    text-align: center;
+  }
+  .articulo:hover {
+    box-shadow: 0 0.875rem 1.875rem rgba(17, 29, 48, .26);
+  }
+  .articulo>h3 {
+    font-size: 1.5rem;
+    margin-top: 1.875rem;
+  }
+  .articulo>a {
+    color: #5D6678;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .contenedor1 {
+    width: 100%;
+    max-width: 62.5rem;
+    margin: auto;
+    overflow: hidden;
+    padding: 3.75rem 0; 
+  }
+  .avatar-proyect {
+    width: 16.25rem;
+    height: 16.25rem;
+  }
+  .contenedor button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 2.5rem;
+    background: #00c4cc;
+    color: #fff;
+    font-size: 1.125rem;
+    border-radius: 1.25rem;
+    }
+  .contenedor :hover[type="submit"]{ 
+        border: none;
+        outline: none;
+        height: 2.5rem;
+        background: #253556;
+        color: #fff;
+        font-size: 1.125rem;
+        border-radius: 1.25rem;  
+        }
+        .Botones button[type="submit"]{
+          border: none;
+          outline: none;
+          height: 2.5rem;
+          background: #00c4cc;
+          color: #fff;
+          font-size: 1.125rem;
+          border-radius: 1.25rem;
+          } 
+        .Botones :hover[type="submit"]{
+              border: none;
+              outline: none;
+              height: 2.5rem;
+              background: #253556;
+              color: #fff;
+              font-size: 1.125rem;
+              border-radius: 1.25rem;
+              }
